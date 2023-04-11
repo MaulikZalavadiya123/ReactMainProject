@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@keyframes mybanner {
+  30%{ background-image: url(../public/Laptop1.jpg); }
+  60%{ background-image: url(../public/Laptop2.jpg); }
+  90%{ background-image: url(../public/Laptop3.jpg); }
+}
+
+#banner{
+  height: 350px;
+  background-image: url(../public/Laptop1.jpg);
+  background-size: 100% 100%;
+  animation: mybanner;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}

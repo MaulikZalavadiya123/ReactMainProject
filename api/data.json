@@ -1,0 +1,218 @@
+{
+  "account": [
+    {
+      "id": 1,
+      "name": "Seller 1",
+      "email": "s1@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "name": "Seller 2",
+      "email": "s2@gmail.com",
+      "password": "123"
+    }
+  ],
+  "productlist": [
+    {
+      "id": 1,
+      "name": "HP",
+      "price": 300000,
+      "info": "its good",
+      "photo": "1.png"
+    },
+    {
+      "id": 2,
+      "name": "HP",
+      "price": 100000,
+      "info": "its good",
+      "photo": "2.png"
+    },
+    {
+      "id": 3,
+      "name": "ASUS",
+      "price": 400000,
+      "info": "its good",
+      "photo": "3.png"
+    },
+    {
+      "id": 4,
+      "name": "AUSR",
+      "price": 500000,
+      "info": "its good",
+      "photo": "4.png"
+    },
+    {
+      "id": 5,
+      "name": "DELL",
+      "price": 200000,
+      "info": "its good",
+      "photo": "5.png"
+    },
+    {
+      "id": 6,
+      "name": "HP Mouse",
+      "price": 600,
+      "info": "its good",
+      "photo": "6.png"
+    },
+    {
+      "id": 7,
+      "name": "Google Mouse",
+      "price": 400,
+      "info": "its good",
+      "photo": "7.png"
+    },
+    {
+      "id": 8,
+      "name": "Google Mouse",
+      "price": 400,
+      "info": "its good",
+      "photo": "8.png"
+    },
+    {
+      "name": "MacBook Pro",
+      "price": 300000,
+      "photo": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP854/mbp14-silver2.png",
+      "info": "its good",
+      "id": 9
+    },
+    {
+      "name": "New MacBook Pro",
+      "price": 500000,
+      "photo": "https://itronics.in/wp-content/uploads/2022/08/MBP-M2_HERO_-F-01.png",
+      "info": "its good",
+      "id": 10
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "name": "HP",
+      "price": 300000,
+      "info": "its good",
+      "photo": "1.png",
+      "qty": 3
+    },
+    {
+      "id": 3,
+      "name": "ASUS",
+      "price": 400000,
+      "info": "its good",
+      "photo": "3.png",
+      "qty": 1
+    },
+    {
+      "id": 4,
+      "name": "AUSR",
+      "price": 500000,
+      "info": "its good",
+      "photo": "4.png",
+      "qty": 6
+    },
+    {
+      "id": 6,
+      "name": "HP Mouse",
+      "price": 600,
+      "info": "its good",
+      "photo": "6.png",
+      "qty": 4
+    },
+    {
+      "id": 8,
+      "name": "Google Mouse",
+      "price": 400,
+      "info": "its good",
+      "photo": "8.png",
+      "qty": 2
+    }
+  ],
+  "order": [
+    {
+      "name": "Maulik",
+      "mobile": "399999999999",
+      "email": "maheshm@gmail.com",
+      "address": "Surat",
+      "itemlist": [
+        {
+          "id": 1,
+          "name": "HP",
+          "price": 300000,
+          "info": "its good",
+          "photo": "1.png",
+          "qty": 3
+        },
+        {
+          "id": 3,
+          "name": "ASUS",
+          "price": 400000,
+          "info": "its good",
+          "photo": "3.png",
+          "qty": 1
+        },
+        {
+          "id": 4,
+          "name": "AUSR",
+          "price": 500000,
+          "info": "its good",
+          "photo": "4.png",
+          "qty": 6
+        },
+        {
+          "id": 6,
+          "name": "HP Mouse",
+          "price": 600,
+          "info": "its good",
+          "photo": "6.png",
+          "qty": 4
+        },
+        {
+          "id": 8,
+          "name": "Google Mouse",
+          "price": 400,
+          "info": "its good",
+          "photo": "8.png",
+          "qty": 2
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 1,
+      "name": "HP",
+      "price": 300000,
+      "info": "its good",
+      "photo": "1.png"
+    },
+    {
+      "id": 2,
+      "name": "HP",
+      "price": 100000,
+      "info": "its good",
+      "photo": "2.png"
+    },
+    {
+      "id": 3,
+      "name": "ASUS",
+      "price": 400000,
+      "info": "its good",
+      "photo": "3.png"
+    },
+    {
+      "id": 4,
+      "name": "AUSR",
+      "price": 500000,
+      "info": "its good",
+      "photo": "4.png"
+    },
+    {
+      "id": 5,
+      "name": "DELL",
+      "price": 200000,
+      "info": "its good",
+      "photo": "5.png"
+    }
+  ]
+}
